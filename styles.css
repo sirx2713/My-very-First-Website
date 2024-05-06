@@ -1,0 +1,53 @@
+@media (min-width: 421px) and (max-width:2560px) {
+  .left-div{
+    display: inline-block;
+    width: 600px;
+  }
+  .left-div > img{
+    float: left;
+    padding-right: 10px;
+  }
+  .left-div > div{
+    font-family: "SF Pro Display", serif;
+    font-size: 15px;
+  }
+  .right-div{
+    display: inline-block;
+    width: 600px;
+  }
+  .right-div > img{
+    float: left;
+    padding-right: 10px;
+  }
+  .right-div > div{
+    font-family: "SF Pro Display", serif;
+    font-size: 15px;
+  }
+}
+@media (min-width: 380px) and (max-width: 420px) {
+  .left-div{
+    display: block;
+    width: 300px;
+  }
+  .left-div > img{
+    float: none;
+    padding-bottom: 10px;
+  }
+  .right-div{
+    display: block;
+    width: 300px;
+  }
+  .right-div > img{
+    float: none;
+    padding-bottom: 10px;
+  }
+  h1{
+    font-size: 75px;
+  }
+  .left-div > div{
+    font-size: 10px;
+  }
+  .right-div > div{
+    font-size: 10px;
+  }
+}
